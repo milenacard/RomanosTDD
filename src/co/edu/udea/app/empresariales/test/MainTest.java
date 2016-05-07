@@ -34,5 +34,15 @@ public class MainTest {
 	public void diezRomano() {
 		assertEquals(main.romanoToDecimal("X"),10);
 	}
+	
+	@Test
+	public void treintaRomano() {
+		assertEquals(main.romanoToDecimal("XXX"),30);
+	}
+	
+	@Test
+	public void cincuentaRomano() {
+		assertEquals(main.romanoToDecimal("L"),50);
+	}
 
 }

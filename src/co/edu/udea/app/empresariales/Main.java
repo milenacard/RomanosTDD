@@ -23,7 +23,14 @@ public class Main {
 				}else{
 					decimal = decimal+10;
 				}
+			}else if(actual == 'L'){
+				if(decimal < 50){
+					decimal = 50-decimal;
+				}else{
+					decimal = decimal+50;
+				}
 			}
+		
 		}
 		return decimal;
 	}
