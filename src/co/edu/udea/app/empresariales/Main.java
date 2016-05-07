@@ -29,6 +29,18 @@ public class Main {
 				}else{
 					decimal = decimal+50;
 				}
+			}else if(actual == 'C'){
+				if(decimal < 100){
+					decimal = 100-decimal;
+				}else{
+					decimal = decimal+100;
+				}
+			}else if(actual == 'D'){
+				if(decimal < 500){
+					decimal = 500-decimal;
+				}else{
+					decimal = decimal+500;
+				}
 			}
 		
 		}
