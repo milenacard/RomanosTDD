@@ -41,6 +41,12 @@ public class Main {
 				}else{
 					decimal = decimal+500;
 				}
+			}else if(actual == 'M'){
+				if(decimal < 1000){
+					decimal = 1000-decimal;
+				}else{
+					decimal = decimal+1000;
+				}
 			}
 		
 		}

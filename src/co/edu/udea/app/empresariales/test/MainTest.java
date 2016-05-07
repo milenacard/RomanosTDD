@@ -54,5 +54,10 @@ public class MainTest {
 	public void quinientosRomano() {
 		assertEquals(main.romanoToDecimal("D"),500);
 	}
+	
+	@Test
+	public void milRomano() {
+		assertEquals(main.romanoToDecimal("M"),1000);
+	}
 
 }
