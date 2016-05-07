@@ -59,5 +59,20 @@ public class MainTest {
 	public void milRomano() {
 		assertEquals(main.romanoToDecimal("M"),1000);
 	}
+	
+	@Test
+	public void novescientoscincuentaRomano() {
+		assertEquals(main.romanoToDecimal("CML"),950);
+	}
+	
+	@Test
+	public void setescientostreintaycuatroRomano() {
+		assertEquals(main.romanoToDecimal("DCCXXXIV"),734);
+	}
+
+	@Test
+	public void trescientoscuarentaynueveRomano() {
+		assertEquals(main.romanoToDecimal("CCCXLIX"),349);
+	}
 
 }
