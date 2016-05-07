@@ -16,5 +16,9 @@ public class MainTest {
 	public void tresRomano() {
 		assertEquals(main.romanoToDecimal("III"),3);
 	}
+	
+	public void cincoRomano() {
+		assertEquals(main.romanoToDecimal("V"),5);
+	}
 
 }
