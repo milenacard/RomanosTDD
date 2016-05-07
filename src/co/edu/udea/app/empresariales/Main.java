@@ -6,6 +6,12 @@ public class Main {
 	}
 	
 	public int romanoToDecimal(String romano){
-		return 1;
+		int decimal = 0;
+		for(int i = 0; i < romano.length();i++){
+			if(romano.charAt(i) == 'I'){
+				decimal = decimal+1;
+			}
+		}
+		return decimal;
 	}
 }

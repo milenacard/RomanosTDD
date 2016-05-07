@@ -9,8 +9,12 @@ import co.edu.udea.app.empresariales.Main;
 public class MainTest {
 	Main main = new Main();
 	@Test
-	public void test() {
+	public void unoRomano() {
 		assertEquals(main.romanoToDecimal("I"),1);
+	}
+	
+	public void tresRomano() {
+		assertEquals(main.romanoToDecimal("III"),3);
 	}
 
 }
