@@ -12,13 +12,21 @@ public class MainTest {
 	public void unoRomano() {
 		assertEquals(main.romanoToDecimal("I"),1);
 	}
-	
+	@Test
 	public void tresRomano() {
 		assertEquals(main.romanoToDecimal("III"),3);
 	}
-	
+	@Test
 	public void cincoRomano() {
 		assertEquals(main.romanoToDecimal("V"),5);
+	}
+	@Test
+	public void sieteRomano() {
+		assertEquals(main.romanoToDecimal("VII"),7);
+	}
+	@Test
+	public void cuatroRomano() {
+		assertEquals(main.romanoToDecimal("IV"),4);
 	}
 
 }

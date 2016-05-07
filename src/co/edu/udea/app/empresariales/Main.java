@@ -12,7 +12,12 @@ public class Main {
 			if(actual == 'I'){
 				decimal = decimal+1;
 			}else if(actual == 'V'){
-				decimal = decimal+5;
+				if(decimal < 5){
+					decimal = 5-decimal;
+				}else{
+					decimal = decimal+5;
+				}
+				
 			}
 		}
 		return decimal;
