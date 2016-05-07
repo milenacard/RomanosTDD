@@ -24,9 +24,15 @@ public class MainTest {
 	public void sieteRomano() {
 		assertEquals(main.romanoToDecimal("VII"),7);
 	}
+	
 	@Test
 	public void cuatroRomano() {
 		assertEquals(main.romanoToDecimal("IV"),4);
+	}
+	
+	@Test
+	public void diezRomano() {
+		assertEquals(main.romanoToDecimal("X"),10);
 	}
 
 }

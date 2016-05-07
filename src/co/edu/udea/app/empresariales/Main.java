@@ -16,8 +16,13 @@ public class Main {
 					decimal = 5-decimal;
 				}else{
 					decimal = decimal+5;
+				}				
+			}else if(actual == 'X'){
+				if(decimal < 10){
+					decimal = 10-decimal;
+				}else{
+					decimal = decimal+10;
 				}
-				
 			}
 		}
 		return decimal;
